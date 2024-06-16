@@ -1,0 +1,13 @@
+train: C:\Users\ahmad\Downloads\defect-kertas-v1\train\images
+val: C:\Users\ahmad\Downloads\defect-kertas-v1\valid\images
+test: C:\Users\ahmad\Downloads\defect-kertas-v1\test\images
+
+nc: 4
+names: ["bersih", "coretan", "tercoret", "terlipat"]
+
+roboflow:
+  workspace: cobayolo-grrbj
+  project: defect-kertas
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cobayolo-grrbj/defect-kertas/dataset/1
